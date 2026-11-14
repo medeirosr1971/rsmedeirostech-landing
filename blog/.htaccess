@@ -1,0 +1,7 @@
+# Protege o painel de mensagens com senha (correção de segurança — ver CHANGELOG/análise)
+<Files "mensagens.php">
+    AuthType Basic
+    AuthName "Área restrita"
+    AuthUserFile /home/u177845269/domains/rsmedeirostech.com.br/public_html/.htpasswd
+    Require valid-user
+</Files>

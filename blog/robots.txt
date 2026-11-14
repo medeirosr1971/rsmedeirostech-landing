@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /mensagens.php
+Disallow: /config.php
+Disallow: /email_config.php
+Disallow: /processa.php
+
+Sitemap: https://www.rsmedeirostech.com.br/sitemap.xml

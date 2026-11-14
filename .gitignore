@@ -1,0 +1,15 @@
+# Segredos — nunca versionar. Use os arquivos .example.php como modelo.
+/email_config.php
+/blog/config.php
+/blog/.htpasswd
+
+# Mirrors locais do app WorkErp/Diagmec — já versionados no repositório
+# próprio do WorkErp (c:\Apache24\htdocs\workerp). Não fazem parte da
+# landing page, não devem ser duplicados aqui.
+/workerp/
+/diagmec/
+
+# Sistema operacional / editor
+Thumbs.db
+.DS_Store
+*.log
